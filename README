@@ -1,0 +1,18 @@
+-----------------------------------------------
+Author: Jin Qi
+Date:   01/04/2015
+Email: jqichina@hotmail.com
+-----------------------------------------------
+This code is released to reproduce the results in our paper
+"Learn Spatio-temporal Geometrical Configurations of Body Joints for Real Time Human Activity Recognition in Smart Environment" in IEEE THMS.
+
+Part of the codes needs Linux OS. We recommend to run the following program in Matlab under Linux os.
+
+1) uncompress the file to any  folder
+2) to reproduce results from CAD60 database, run "TimePerformance.m" 
+in relative folder "......./SkeletonVisualization"
+3) to reproduce results from MSRAction3D database, run "TimePerformance.m" 
+in relative folder "....../SkeletonVisualization-MSR"
+4) to reproduce results from MSRAction3D database, run "TimePerformance.m" 
+in relative folder "....../SkeletonVisualization-MSRDaily"
+
