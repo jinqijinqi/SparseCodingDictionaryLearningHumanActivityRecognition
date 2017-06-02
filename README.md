@@ -1,7 +1,7 @@
 # SparseCodingDictionaryLearningHumanActivityRecognition
 -----------------------------------------------
 Author: Jin Qi
-Date:   01/04/2015
+Date:   06/02/2017
 Email: jqichina@hotmail.com
 -----------------------------------------------
 This code is released to reproduce the results in our paper
