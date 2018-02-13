@@ -1,0 +1,31 @@
+
+If you want to use some other images, you will need to prewhiten them
+first.  If the images are NxN pixels, then you will need to multiply
+by the filter f*exp(-(f/f_0)^4) in the frequency domain, where
+f_0=0.4*N.  Once you have preprocessed a number of images this way,
+all the same size, then you should reshape each image into a column
+vector and concatenate these columns into a N^2 x M matrix, where M is
+the number of images.  Then rescale this array so that the average
+image variance is 0.1.  Name this matrix IMAGES, save it to a file for
+future use, and you should be off and running.  The following commands
+should do this:
+
+N=images_size;
+M=num_images;
+
+[fx fy]=meshgrid(-N/2:N/2-1,-N/2:N/2-1);
+rho=sqrt(fx.*fx+fy.*fy);
+f_0=0.4*N;
+filt=rho.*exp(-(rho/f_0).^4);
+
+for i=1:M
+  image=get_image;
+  If=fft2(image);
+  imagew=real(ifft2(If.*fftshift(filt)));
+  IMAGES(:,i)=reshape(imagew,N^2,1);
+end
+
+IMAGES=sqrt(0.1)*IMAGES/sqrt(mean(var(IMAGES)));
+
+save IMAGES IMAGES
+

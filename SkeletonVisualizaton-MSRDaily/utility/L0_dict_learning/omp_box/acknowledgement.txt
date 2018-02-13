@@ -1,0 +1,3 @@
+Acknowledgement.
+
+The codes for OMP2 are copied from  the  OMP toolbox  (http://www.cs.technion.ac.il/~ronrubin/software.html) 

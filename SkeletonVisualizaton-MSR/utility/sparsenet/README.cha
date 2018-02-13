@@ -1,0 +1,102 @@
+
+Instructions for running sparsenet (for Matlab version 5.0 or higher)
+---------------------------------------------------------------------
+
+>Modified for Intel processors running Windows.
+>C. H. Anderson
+>Dept. Anatomy and Neurobiology
+>Washington University School of Medicine
+>St. Louis, MO 63110
+>cha@shifter.wustl.edd
+
+--------CHA--------------
+Ignore the following
+
+To run sparsenet, you will first need to compile the conjugate
+gradient (cgf) routine so that it may be called through matlab.  To do
+this, you will first need to build the library libnrfopt.a, which
+contains the actual conjugate gradient subroutines.  Go to the nrf/
+subdirectory and type
+
+    make libnrfopt.a
+
+Then go back up the to sparsenet directory and compile the cgf routine
+so that it may be called by matlab.  First modify the makefile
+definition for MEXT to be the proper suffix for the mex file for your
+machine (for SGI's it is mexsg).  Then type
+
+    make
+
+If successful, this should create a file named cgf.xxx, where xxx is a
+suffix that depends on what machine you are on.
+
+--------CHA--------------
+The libraries have been compiled using Microsofts VC 6.0 
+for Pentium 2 or later.
+
+cgf.dll, nrfopt.dll, nrfopt.lib   
+
+The Matlab script setup.m does the following items		      
+-------------------------------
+
+
+At this point, you are in business.  Now startup matlab.
+
+First load the training data:
+
+>> load IMAGES;
+
+This will create a 262144 x 10 matrix whose columns are 512x512
+images.  This consumes about 20 Meg, so hopefully you have enough
+memory.  If not, email me and I can make you a smaller training set.
+
+The next step is to define a matrix of basis functions, A.  For
+example, to learn 64 bases on 8x8 patches, define A as follows:
+
+>> A = rand(64)-0.5;
+>> A = A*diag(1./sqrt(sum(A.*A)));
+
+This will create a 64x64 matrix initialized to random values.  Each
+column is a different basis function that has unit length.
+
+Set the colormap of Figure 1 to greyscale:
+
+>> figure(1), colormap(gray)
+
+Now simply run the simulation by typing
+
+>> sparsenet
+
+
+Once the simulation starts running, it will display the bases in
+Figure No. 1 every 10 batches, and it will show the variance of the
+coefficients in Figure No. 2.  You can stop the simulation at any
+point by typing control-c.  You an change the parameters in
+sparsenet.m and then resume execution by typing "sparsenet" again.
+
+The learning rate (eta) is initialized to 5.0, which is a large value.
+This quickly gets the solution in the right ballpark, but it is too
+large to come to a clean stable solution.  Once it looks like you have
+something interesting emerging, start reducing eta, eventually to
+about 1.0.  A full set of 8x8 bases takes about 15 min. to learn
+(depending on how fast your workstation is).
+
+
+Notation:
+---------
+
+A          Basis functions (Phi in Vis. Res. paper)
+X          Input image (I in Vis. Res. paper)
+S          Coefficients (a in Vis. Res. paper)
+noise_var  noise variance (sigma_N in Vis. Res. paper)
+beta       steepness of prior
+sigma      scaling parameter for prior
+eta        learning rate
+tol        tolerance for conjugate gradient routine
+
+VAR_GOAL   variance goal for the coefficients
+S_var      actual variance of the coefficients
+var_eta    average rate for S_var
+alpha      gain adaptation rate
+gain       L2 norm of basis functions
+

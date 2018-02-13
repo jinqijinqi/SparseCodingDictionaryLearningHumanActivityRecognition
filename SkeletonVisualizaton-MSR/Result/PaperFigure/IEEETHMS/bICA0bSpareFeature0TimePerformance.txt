@@ -1,0 +1,5 @@
+AverageTestTimePerVideo: 0.167938
+ AverageTrainTime: 590.034760
+ AveragenumTrain: 156.250000
+ AveragenumTest: 200.333333
+ AveragenumClasses: 11.000000

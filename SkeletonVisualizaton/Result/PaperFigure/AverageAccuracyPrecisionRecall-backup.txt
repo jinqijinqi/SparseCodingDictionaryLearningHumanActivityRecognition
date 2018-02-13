@@ -1,0 +1,78 @@
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 75.000000 66.130952 70.833333 6 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 77.941176 71.130952 76.785714 8 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 72.058824 63.541667 69.642857 10 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 70.588235 56.845238 64.285714 12 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 72.058824 61.904762 69.642857 14 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 80.882353 70.982143 77.976190 16 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 75.000000 64.880952 71.726190 18 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 69.117647 58.839286 65.476190 20 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 70.588235 62.670068 67.559524 22 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 75.000000 65.059524 70.833333 24 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 67.647059 53.869048 63.988095 26 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 73.529412 67.559524 72.321429 28 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 63.235294 53.690476 60.119048 30 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 73.529412 65.476190 72.916667 32 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 79.411765 68.750000 76.785714 34 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 76.470588 64.761905 71.428571 36 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 85.294118 79.047619 83.035714 38 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 75.000000 66.964286 73.809524 40 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 77.941176 68.750000 75.595238 13 200 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 70.588235 59.970238 65.476190 13 220 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 79.411765 67.589286 75.000000 13 240 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 76.470588 68.630952 75.000000 13 260 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 73.529412 63.244048 70.238095 13 280 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 73.529412 63.988095 69.940476 13 300 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 67.647059 58.660714 65.178571 13 320 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 75.000000 67.023810 72.023810 13 340 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 76.470588 66.666667 73.809524 13 360 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 75.000000 65.476190 73.214286 13 380 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 75.000000 65.654762 71.726190 13 400 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 79.411765 73.660714 77.380952 13 420 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 79.411765 68.333333 75.892857 13 440 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 75.000000 65.952381 72.023810 13 460 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 79.411765 69.196429 75.000000 13 480 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 70.588235 60.267857 66.666667 13 500 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 77.941176 67.261905 73.214286 13 520 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 73.529412 63.839286 70.833333 13 540 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 70.588235 60.446429 66.071429 13 560 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 70.588235 61.130952 67.857143 13 580 400 
+AverageAccuracy AveragePrecision AverageRecall NumChunk NumWordPerClass NumLargestCoef 
+ 72.058824 65.773810 69.642857 13 600 400 

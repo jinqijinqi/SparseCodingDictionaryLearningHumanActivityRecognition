@@ -1,0 +1,3 @@
+Average Accuracy: 86.144658
+ average recall: 84.832220 
+ average precision: 88.837824
